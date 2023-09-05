@@ -173,7 +173,6 @@ function Room() {
             >
               <ReactPlayer
                 playing
-                muted
                 height="auto"
                 width="100%"
                 url={remoteStream}
@@ -197,7 +196,6 @@ function Room() {
             >
               <ReactPlayer
                 playing
-                muted
                 height="auto"
                 width="100%"
                 url={myStream}
